@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    font-family: 'Lato', sans-serif;
+}
+.img-logo-container {
+    display: block;
+}
+@media screen and (min-width: 576px) {
+    .img-logo {
+        height: 76px;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .img-logo {
+        width: 60vw;
+        padding-left: 35vw;
+    }
+}
