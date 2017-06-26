@@ -22,6 +22,18 @@ module.exports = function (grunt) {
                             width: 576
                         },
                         {
+                            name: '_350',
+                            width: 350,
+                        },
+                        {
+                            name: '_290',
+                            width: 290,
+                        },
+                        {
+                            name: '_210',
+                            width: 210,
+                        },
+                        {
                             name: '_original',
                             width: '100%'
                         }
